@@ -181,4 +181,8 @@
         left: -17px;
         top: -14px;
     }
+
+    .runningText {
+        font-size: 20px;
+    }
 }
