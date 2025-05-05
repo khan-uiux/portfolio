@@ -19,6 +19,10 @@
     --cardBg: #1C1F25;
 }
 
+.hero-section a {
+    text-decoration: none;
+}
+
 header {
     position: absolute;
     z-index: 9;
