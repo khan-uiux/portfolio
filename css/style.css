@@ -428,7 +428,7 @@ h4.percentage {
     width: 610px;
     height: 665px;
     border-radius: 24px;
-    background-image: url(/images/how-it-woks.webp);
+    background-image: url(https://khan-uiux.github.io/portfolio/images/how-it-woks.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -766,7 +766,7 @@ h4.percentage {
     width: 510px;
     height: 740px;
     border-radius: 15rem;
-    background-image: url(/images/expertise-image.jpg);
+    background-image: url(https://khan-uiux.github.io/portfolio/images/expertise-image.jpg);
     background-size: cover;
     background-position: center;
 }
