@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Irfan UI/UX Designer | Front-end Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body id="mainBody">
 
     <!-- header -->
 
@@ -22,7 +22,7 @@
         </div>
         <nav id="navBar">
             <ul>
-                <li class="active">
+                <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
@@ -31,7 +31,7 @@
                 <li>
                     <a href="services.html" target="_blank">Services</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="contact.html" target="_blank">Contact Us</a>
                 </li>
                 <li>
@@ -57,17 +57,52 @@
 
     <!-- header -->
 
-    <section class="notFoundSection">
-        <h1 class="h1Heading">We're Working On This Page</h1>
-        <p>This section is currently under development. We’re crafting something great for you. Please check back soon!</p>
+    <section class="commonArea">
+        <h1 class="h1Heading">Contact <span>Us</span></h1>
+        <p><a href="index.html" class="innerPagesAnchor">Home</a> / Our Services</p>
     </section>
 
-    <section class="workingImage">
-        <img src="images/404-error-img.png" alt="We are working on this page">
-        <div>
-            <button class="btn-all backToHome">
-                <a href="index.html">Back To Home</a>
-            </button>
+    <section class="contactForm">
+        <div class="contactInfo">
+            <p class="dot">Contact Us</p>
+            <h2 class="sectionHeading">Get in touch to discuss your <span>next project</span></h2>
+            <p>Are you ready to take your project to the next level? Whether you’re looking for a new website a web application, or simply need advice.</p>
+            <div class="address">
+                <div class="icon">
+                    <img src="images/location.png" alt="location">
+                </div>
+                <div class="info">
+                    <h3 class="cardHeading">Address</h3>
+                    <p class="width-60">Kabir Nagar, Sohna, Gurgaon Haryana 122103</p>
+                </div>
+            </div>
+            <div class="address">
+                <div class="icon">
+                    <img src="images/solar_phone-linear.png" alt="Phone">
+                </div>
+                <div class="info">
+                    <h3 class="cardHeading">Phone Number</h3>
+                    <p>+91 7838957053</p>
+                </div>
+            </div>
+            <div class="circleImage">
+                <img src="images/viewResumeBadge.png" alt="View My Resume">
+            </div>
+        </div>
+        <div class="contactFromCard">
+            <p>Fill out the form below to connect with me. I’ll get back to you soon to discuss your project or answer any questions.</p>
+            <div class="inputGroup">
+                <input type="text" placeholder="First Name" class="inputField">
+                <input type="text" placeholder="Last Name" class="inputField">
+            </div>
+            <div class="inputGroup">
+                <input type="text" placeholder="Email" class="inputField">
+                <input type="text" placeholder="Phone Number" class="inputField">
+            </div>
+            <div class="inputGroup">
+                <textarea name="textarea" class="textarea" placeholder="Message"></textarea>
+            </div>
+            <button class="btn-all submitButton">Submit Message</button>
         </div>
     </section>
 
@@ -100,7 +135,7 @@
             <img src="images/viewResumeBadge2.png" alt="View My Resume">
         </div>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script src="js/dotted.js"></script>
 </body>
 </html>

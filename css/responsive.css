@@ -108,7 +108,33 @@
     }
 
     nav {
-        display: none;
+        position: absolute;
+        background: var(--hilightFontGradient);
+        width: 100%;
+        left: -425px;
+        border-radius: 0;
+        top: 0;
+        z-index: 99999;
+        transition: all 0.5s linear;
+    }
+
+    li.active a {
+        color: #fff;
+    }
+
+    .mobile {
+        background: #fff;
+    }
+
+    nav ul li a {
+        color: #163031;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: baseline;
+        gap: 20px 0px;
+        position: relative;
     }
 
     .logo {
@@ -121,6 +147,7 @@
 
     header {
         padding: 20px;
+        position: relative;
     }
 
     .tools .text {
@@ -205,10 +232,116 @@
     .workingImage img {
         width: 100%;
     }
+
+
+    /* about us */
+    
+    .myExperties {
+        flex-direction: column;
+    }
+
+    .imgDiv {
+        width: 344px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+
+    .textBadge h2, .textBadge p {
+        margin: 0;
+    }
+
+    .textBadge {
+        width: 141px;
+        height: 168px;
+        right: -18px;
+    }
+    
+    .eXpCard {
+        width: 100%;
+    }
+
+    .portfolioCards {
+        flex-direction: column;
+    }
+
+    .imgSlot {
+        width: 100%;
+        height: 250px;
+    }
+
+    .detailContainer {
+        flex-direction: column;
+        gap: 30px 0px;
+    }
+
+    .leftDeailedContainer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .listContainer h3 {
+        font-size: 20px;
+    }
+
+    .rightDetailedContainer {
+        width: 100%;
+    }
+
+    .detailedContainer {
+        flex-direction: column;
+        gap: 30px 0px;
+    }
+
+    .leftDeailedContainerProcess {
+        width: 100%;
+    }
+
+    .imageContainer {
+        height: fit-content;
+    }
+
+    .closemenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: transparent;
+        border: none;
+    }
+
+    .closemenu img {
+        width: 24px;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .menuIcon {
+        border: none;
+        background: transparent;
+    }
+
+    .menuIcon, .mobile {
+        display: block;
+    }
+
+    button.btn-all.downloadCv.desktop {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .imageBeforeCircle {
         display: none;
+    }
+
+    .footer .links{
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer .links img {
+        width: 24px;
     }
 }

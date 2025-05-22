@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Irfan UI/UX Designer | Front-end Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body id="mainBody">
 
     <!-- header -->
 
@@ -22,7 +22,7 @@
         </div>
         <nav id="navBar">
             <ul>
-                <li class="active">
+                <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
@@ -34,7 +34,7 @@
                 <li>
                     <a href="contact.html" target="_blank">Contact Us</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="projects.html" target="_blank">Projects</a>
                 </li>
                 <li>
@@ -57,17 +57,40 @@
 
     <!-- header -->
 
-    <section class="notFoundSection">
-        <h1 class="h1Heading">We're Working On This Page</h1>
-        <p>This section is currently under development. We’re crafting something great for you. Please check back soon!</p>
+    <section class="commonArea">
+        <h1 class="h1Heading" id="h1MainHeading"></h1>
+        <p><a href="index.html" class="innerPagesAnchor">Home</a> / <a href="projects.html" class="innerPagesAnchor">My Portfolio</a> / Project Detail</p>
     </section>
 
-    <section class="workingImage">
-        <img src="images/404-error-img.png" alt="We are working on this page">
-        <div>
-            <button class="btn-all backToHome">
-                <a href="index.html">Back To Home</a>
-            </button>
+    <section class="detailContainer">
+        <div class="leftDeailedContainer">
+            <div class="headerSlot">
+                <h3 class="cardHeading">Project Information</h3>
+            </div>
+            <div class="listContainer">
+                <h3 class="cardHeading"> Category : </h3>
+                <p id="projectTitle"></p>
+            </div>
+            <div class="listContainer">
+                <h3 class="cardHeading"> Client : </h3>
+                <p id="clientName"></p>
+            </div>
+            <div class="listContainer">
+                <h3 class="cardHeading"> Duration : </h3>
+                <p id="projectDuration"></p>
+            </div>
+            <div class="listContainer" style="border-bottom: none;padding: 20px 0px 0px 0px;">
+                <h3 class="cardHeading"> Link : </h3>
+                <p id="projectLink"></p>
+            </div>
+        </div>
+        <div class="rightDetailedContainer">
+            <div class="imageContainer">
+                <img src="images/portfolio-1.jpg" alt="Project Card">
+            </div>
+            <h2 class="sectionHeading"><span id="projectName"></span></h2>
+            <p id="projectPara1"></p>
+            <p id="projectPara2"></p>
         </div>
     </section>
 
@@ -100,7 +123,8 @@
             <img src="images/viewResumeBadge2.png" alt="View My Resume">
         </div>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script src="js/dotted.js"></script>
+    <script src="js/projectSummary.js"></script>
 </body>
 </html>

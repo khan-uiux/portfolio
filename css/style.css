@@ -33,6 +33,10 @@
     --h4HeadingFontSize : 40px;
 }
 
+h1 {
+    letter-spacing: .4px;
+}
+
 p {
     line-height: 28px;
     font-size: var(--paragraphFontSize);
@@ -193,12 +197,13 @@ li a:hover {
 .cards {
     margin-top: 60px;
     display: flex;
-    gap: 0px 31px;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 317px;
-    height: 280px;
+    width: 299px;
+    height: 260px;
     padding: 30px;
     display: grid;
     gap: 50px 0px;
@@ -423,7 +428,7 @@ h4.percentage {
     width: 610px;
     height: 665px;
     border-radius: 24px;
-    background-image: url(images/how-it-woks.webp);
+    background-image: url(/images/how-it-woks.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -725,4 +730,397 @@ h4.percentage {
 .slide-active {
   transform: translateX(0%);
   opacity: 1;
+}
+
+
+/* About */
+/* About */
+
+.commonArea {
+    width: 100%;
+    height: auto;
+    padding: var(--sectionPadding);
+    background-color: var(--sectionBackgroundColor);
+    text-align: center;
+}
+
+.innerPagesAnchor {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.myExperties {
+    width: 100%;
+    height: auto;
+    padding: var(--sectionPadding);
+    background: var(--sectionBackgroundColor);
+    border-top: 1px solid #FFFFFF0F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 100px;
+}
+
+.imgDiv {
+    position: relative;
+    width: 510px;
+    height: 740px;
+    border-radius: 15rem;
+    background-image: url(/images/expertise-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.roundTextBadge {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    z-index: 9999;
+}
+
+.circle-text {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 50px auto;
+  animation: spin 20s linear infinite;
+}
+
+.circle-text span {
+    z-index: 99999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  font-size: 17px;
+  font-weight: var(--fontWeight500);
+  transform: rotate(calc(var(--i) * 15deg)) translate(90px) rotate(calc(var(--i) * -15deg));
+}
+
+.circle-text span {
+  color: var(--hilightFontColor);
+  transition: color 0.3s ease;
+}
+
+.textBadge {
+    position: absolute;
+    width: 168px;
+    height: 211px;
+    border-radius: 6rem;
+    background: var(--hilightFontGradient);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    bottom: 80px;
+    right: -30px;
+    z-index: 999;
+}
+
+.textBadge h2, .textBadge p {
+    color: var(--sectionBackgroundColor);
+}
+
+.expertiesCards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.eXpCard {
+    width: 309px;
+    height: 180px;
+    border-radius: 24px;
+    background: var(--boxBackground);
+    border: var(--boxBorder);
+    padding: 20px;
+}
+
+.eXpCard img {
+    width: 54px;
+}
+
+.textExp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.parentProgressBar {
+    width: 100%;
+    height: 14px;
+    border-radius: 13px;
+    background: var(--sectionBackgroundColor);
+    position: relative;
+}
+
+.childProgressBar {
+    background: var(--hilightFontGradient);
+    height: 14px;
+    border-radius: 13px;
+}
+
+#uiux, #dToCode, #userInterface{
+    width: 85%;
+}
+
+#webdev {
+    width: 90%;
+}
+
+.portfolioCards {
+    padding: var(--sectionPadding);
+    background: var(--sectionBackgroundColor);
+    border-top: 1px solid #FFFFFF0F;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.imgSlot {
+    width: 400px;
+    height: 420px;
+    background-image: url(/images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imgSlot2 {
+    background-image: url(/images/portfolio-2.jpg) !important;
+}
+
+.imgSlot3 {
+    background-image: url(/images/portfolio-3.jpg) !important;
+}
+
+.imgSlot4 {
+    background-image: url(/images/portfolio-4.jpg) !important;
+}
+
+.imgSlot5 {
+    background-image: url(/images/portfolio-5.jpg) !important;
+}
+
+.imgSlot6 {
+    background-image: url(/images/portfolio-6.jpg) !important;
+}
+
+.projectCard .hoverEffect {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: var(--hilightFontGradient);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: rotate(-45deg);
+    transition: all 0.5s linear;
+    transform: translate(-50%, -50%);
+}
+
+.imgSlot:hover .hoverEffect {
+    opacity: 1;
+}
+
+/* .hoverEffect:hover {
+    transform: rotate(5deg);
+} */
+
+.projectCard .cardHeading {
+    margin: 0px 0px 6px 0px;
+}
+
+.detailContainer {
+    width: 100%;
+    height: auto;
+    padding: var(--sectionPadding);
+    background: var(--sectionBackgroundColor);
+    border-top: 1px solid #ffffff0f;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 30px;
+}
+
+.detailedContainer {
+    width: 100%;
+    height: auto;
+    padding: var(--sectionPadding);
+    background: var(--sectionBackgroundColor);
+    border-top: 1px solid #ffffff0f;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 30px;
+}
+
+.leftDeailedContainer {
+    width: 37%;
+    height: fit-content;
+    background: var(--boxBackground);
+    border: var(--boxBorder);
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.rightDetailedContainer {
+    width: 60%;
+}
+
+.leftDeailedContainer .headerSlot {
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid #ffffff0f;
+}
+
+.listContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ffffff0f;
+}
+
+.listContainer h3 {
+    font-size: 22px;
+    letter-spacing: .5px;
+    background: linear-gradient(to right, #76FDD0, #E9FF72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: var(--fontWeight600);
+}
+
+.imageContainer {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.processHeader {
+    padding: 40px;
+    background: var(--hilightFontGradient);
+    border-bottom: 1px solid #ffffff0f;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.leftDeailedContainerProcess {
+    width: 37%;
+    height: fit-content;
+    background: var(--boxBackground);
+    border: var(--boxBorder);
+    border-radius: 30px;
+}
+
+.processHeader h3 {
+    color: var(--sectionBackgroundColor);
+}
+
+.processCardBody {
+    padding: 40px 30px;
+}
+
+.processCardBody .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.processCardBody .list p {
+    background: linear-gradient(to right, #76FDD0, #E9FF72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: var(--fontWeight600);
+}
+
+.border-top {
+    border-top: 1px solid #ffffff0f;
+}
+
+.processListContainer {
+    margin-top: 40px;
+    display: flex;
+    gap: 0px 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.processListCard {
+    width: 245px;
+    min-width: 245px;
+    height: auto;
+    border-radius: 25px;
+    border: var(--boxBorder);
+    background: var(--boxBackground);
+    padding: 25px;
+}
+
+.h4Heading {
+    font-size: 53px;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #76FDD0, #E9FF72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin-bottom: 13px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #76FDD0, #E9FF72);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #76FDD0, #E9FF72); 
+}
+
+#h1MainHeading {
+    background: linear-gradient(to right, #76FDD0, #E9FF72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#h1MainHeading span {
+    background: none;
+    -webkit-text-fill-color: snow;
+}
+
+.closemenu {
+    display: none;
+}
+
+.menuIcon, .mobile {
+    display: none;
 }
