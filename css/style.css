@@ -886,7 +886,7 @@ h4.percentage {
 .imgSlot {
     width: 400px;
     height: 420px;
-    background-image: url(/images/portfolio-1.jpg);
+    background-image: url(https://khan-uiux.github.io/portfolio/images/portfolio-1.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
@@ -898,23 +898,23 @@ h4.percentage {
 }
 
 .imgSlot2 {
-    background-image: url(/images/portfolio-2.jpg) !important;
+    background-image: url(https://khan-uiux.github.io/portfolio/images/portfolio-2.jpg);
 }
 
 .imgSlot3 {
-    background-image: url(/images/portfolio-3.jpg) !important;
+    background-image: url(https://khan-uiux.github.io/portfolio/images/portfolio-3.jpg);
 }
 
 .imgSlot4 {
-    background-image: url(/images/portfolio-4.jpg) !important;
+    background-image: url(https://khan-uiux.github.io/portfolio/images/portfolio-4.jpg);
 }
 
 .imgSlot5 {
-    background-image: url(/images/portfolio-5.jpg) !important;
+    background-image: url(https://khan-uiux.github.io/portfolio/images/portfolio-5.jpg);
 }
 
 .imgSlot6 {
-    background-image: url(/images/portfolio-6.jpg) !important;
+    background-image: url(https://khan-uiux.github.io/portfolio/images/portfolio-6.jpg);
 }
 
 .projectCard .hoverEffect {
