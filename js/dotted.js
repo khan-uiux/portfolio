@@ -16,6 +16,25 @@ mainBodyEl.addEventListener('mousemove', (e) => {
 
 })
 
+// setHeader
+
+let headerEl = document.getElementById('header')
+
+const fixHeader = (e) => {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 120) {
+            headerEl.classList.add('fixHeader')
+        } else {
+            headerEl.classList.remove('fixHeader')
+        }
+    })
+}
+
+fixHeader()
+
+
+// social icons
+
 let menuIcon = document.querySelector('.menuIcon');
 let closemenu = document.querySelector('.closemenu');
 let navBar = document.querySelector('#navBar');

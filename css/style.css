@@ -56,6 +56,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.4s linear;
 }
 
 nav {
@@ -1125,6 +1126,10 @@ h4.percentage {
     display: none;
 }
 
+.menuIcon img {
+    width: 24px;
+}
+
 .folioMain {
     top: 50%;
     right: 0;
@@ -1140,4 +1145,12 @@ h4.percentage {
     justify-content: center;
     align-items: center;
     gap: 10px 0px;
+}
+
+.fixHeader {
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
 }
