@@ -27,3 +27,68 @@ menuIcon.addEventListener('click', () => {
 closemenu.addEventListener('click', () => {
     navBar.style.left = "-425px";
 })
+
+const portfolioStrip = () => {
+    let folioMainEl = document.createElement('div');
+    folioMainEl.classList.add('folioMain');
+
+    // generate links
+
+    let dribbble = document.createElement('div');
+    let dribbbleAnchor = document.createElement('a');
+    let dribbbleImage = document.createElement('img');
+    dribbbleImage.src = "images/dribble.png";
+    dribbbleAnchor.href = "https://dribbble.com/irfanUIUXDesigner";
+    dribbbleAnchor.setAttribute('target', '_blank');
+    dribbble.classList.add('portfolioLinks');
+
+    dribbble.appendChild(dribbbleAnchor);
+    dribbbleAnchor.appendChild(dribbbleImage);
+
+    // behance
+
+    let behance = document.createElement('div');
+    let behanceAnchor = document.createElement('a');
+    let behanceImage = document.createElement('img');
+    behanceImage.src = "images/behance2.png";
+    behanceAnchor.href = "https://www.behance.net/irfanoptimaf0f";
+    behanceAnchor.setAttribute('target', '_blank');
+    behance.classList.add('portfolioLinks');
+
+    behance.appendChild(behanceAnchor);
+    behanceAnchor.appendChild(behanceImage);
+
+    // naukri
+
+    let naukri = document.createElement('div');
+    let naukriAnchor = document.createElement('a');
+    let naukriImage = document.createElement('img');
+    naukriImage.src = "images/naukri2.png";
+    naukriAnchor.href = "https://www.naukri.com/mnjuser/profile?id=&altresid";
+    naukriAnchor.setAttribute('target', '_blank');
+    naukri.classList.add('portfolioLinks');
+
+    naukri.appendChild(naukriAnchor);
+    naukriAnchor.appendChild(naukriImage);
+
+    // linkedin
+
+    let linkedin = document.createElement('div');
+    let linkedinAnchor = document.createElement('a');
+    let linkedinImage = document.createElement('img');
+    linkedinImage.src = "images/linkedin2.png";
+    linkedinAnchor.href = "https://www.linkedin.com/in/irfanoptimistic/";
+    linkedinAnchor.setAttribute('target', '_blank');
+    linkedin.classList.add('portfolioLinks');
+
+    linkedin.appendChild(linkedinAnchor);
+    linkedinAnchor.appendChild(linkedinImage);
+
+    mainBodyEl.appendChild(folioMainEl);
+    folioMainEl.appendChild(dribbble);
+    folioMainEl.appendChild(behance);
+    folioMainEl.appendChild(naukri);
+    folioMainEl.appendChild(linkedin);
+}
+
+portfolioStrip();

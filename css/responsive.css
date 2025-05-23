@@ -329,6 +329,16 @@
     button.btn-all.downloadCv.desktop {
         display: none;
     }
+
+    .folioMain {
+        left: 23.7rem;
+        width: 46px;
+        gap: 5px 0px;
+    }
+
+    .portfolioLinks img {
+        width: 24px;
+    }
 }
 
 @media screen and (max-width: 375px) {

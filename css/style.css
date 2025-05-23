@@ -1124,3 +1124,20 @@ h4.percentage {
 .menuIcon, .mobile {
     display: none;
 }
+
+.folioMain {
+    top: 50%;
+    right: 0;
+    width: 55px;
+    height: auto;
+    border-radius: 1rem 0 0 1rem;
+    padding: 10px;
+    background: var(--hilightFontGradient);
+    z-index: 99999;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 0px;
+}
