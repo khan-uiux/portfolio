@@ -108,6 +108,20 @@ const portfolioStrip = () => {
     folioMainEl.appendChild(behance);
     folioMainEl.appendChild(naukri);
     folioMainEl.appendChild(linkedin);
+
+
+    window.addEventListener('scroll', () =>{
+        let footer = document.querySelector('footer');
+        let footerTop = footer.getBoundingClientRect().top + window.scrollY;
+        let scrollPosition = window.scrollY + window.innerHeight;
+
+        if (scrollPosition >= footerTop) {
+          folioMainEl.style.display = "none"
+        } else {
+            folioMainEl.style.display = "block"
+            folioMainEl.style.transform = "translateY(-5px)"
+        }
+    })
 }
 
 portfolioStrip();
