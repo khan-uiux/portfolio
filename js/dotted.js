@@ -57,9 +57,9 @@ const portfolioStrip = () => {
     let dribbbleAnchor = document.createElement('a');
     let dribbbleImage = document.createElement('img');
     dribbbleImage.src = "images/dribble.png";
+    dribbbleImage.setAttribute('alt', 'social icon');
     dribbbleAnchor.href = "https://dribbble.com/irfanUIUXDesigner";
     dribbbleAnchor.setAttribute('target', '_blank');
-    dribbbleAnchor.setAttribute('alt', 'social icon');
     dribbble.classList.add('portfolioLinks');
 
     dribbble.appendChild(dribbbleAnchor);
@@ -70,10 +70,10 @@ const portfolioStrip = () => {
     let behance = document.createElement('div');
     let behanceAnchor = document.createElement('a');
     let behanceImage = document.createElement('img');
+    behanceImage.setAttribute('alt', 'social icon');
     behanceImage.src = "images/behance2.png";
     behanceAnchor.href = "https://www.behance.net/irfanoptimaf0f";
     behanceAnchor.setAttribute('target', '_blank');
-    behanceAnchor.setAttribute('alt', 'social icon');
     behance.classList.add('portfolioLinks');
 
     behance.appendChild(behanceAnchor);
@@ -84,10 +84,10 @@ const portfolioStrip = () => {
     let naukri = document.createElement('div');
     let naukriAnchor = document.createElement('a');
     let naukriImage = document.createElement('img');
+    naukriImage.setAttribute('alt', 'social icon');
     naukriImage.src = "images/naukri2.png";
     naukriAnchor.href = "https://www.naukri.com/mnjuser/profile?id=&altresid";
     naukriAnchor.setAttribute('target', '_blank');
-    naukriAnchor.setAttribute('alt', 'social icon');
     naukri.classList.add('portfolioLinks');
 
     naukri.appendChild(naukriAnchor);
@@ -98,10 +98,10 @@ const portfolioStrip = () => {
     let linkedin = document.createElement('div');
     let linkedinAnchor = document.createElement('a');
     let linkedinImage = document.createElement('img');
+    linkedinImage.setAttribute('alt', 'social icon');
     linkedinImage.src = "images/linkedin2.png";
     linkedinAnchor.href = "https://www.linkedin.com/in/irfanoptimistic/";
     linkedinAnchor.setAttribute('target', '_blank');
-    linkedinAnchor.setAttribute('alt', 'social icon');
     linkedin.classList.add('portfolioLinks');
 
     linkedin.appendChild(linkedinAnchor);
