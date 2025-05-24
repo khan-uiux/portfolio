@@ -59,6 +59,7 @@ const portfolioStrip = () => {
     dribbbleImage.src = "images/dribble.png";
     dribbbleAnchor.href = "https://dribbble.com/irfanUIUXDesigner";
     dribbbleAnchor.setAttribute('target', '_blank');
+    dribbbleAnchor.setAttribute('alt', 'social icon');
     dribbble.classList.add('portfolioLinks');
 
     dribbble.appendChild(dribbbleAnchor);
@@ -72,6 +73,7 @@ const portfolioStrip = () => {
     behanceImage.src = "images/behance2.png";
     behanceAnchor.href = "https://www.behance.net/irfanoptimaf0f";
     behanceAnchor.setAttribute('target', '_blank');
+    behanceAnchor.setAttribute('alt', 'social icon');
     behance.classList.add('portfolioLinks');
 
     behance.appendChild(behanceAnchor);
@@ -85,6 +87,7 @@ const portfolioStrip = () => {
     naukriImage.src = "images/naukri2.png";
     naukriAnchor.href = "https://www.naukri.com/mnjuser/profile?id=&altresid";
     naukriAnchor.setAttribute('target', '_blank');
+    naukriAnchor.setAttribute('alt', 'social icon');
     naukri.classList.add('portfolioLinks');
 
     naukri.appendChild(naukriAnchor);
@@ -98,6 +101,7 @@ const portfolioStrip = () => {
     linkedinImage.src = "images/linkedin2.png";
     linkedinAnchor.href = "https://www.linkedin.com/in/irfanoptimistic/";
     linkedinAnchor.setAttribute('target', '_blank');
+    linkedinAnchor.setAttribute('alt', 'social icon');
     linkedin.classList.add('portfolioLinks');
 
     linkedin.appendChild(linkedinAnchor);
