@@ -342,6 +342,16 @@
 }
 
 @media screen and (max-width: 375px) {
+
+    :root {
+        --h2HeadingFontSize : 32px;
+    }
+
+    .sectionHeading {
+        line-height: 48px;
+    }
+
+
     .imageBeforeCircle {
         display: none;
     }
