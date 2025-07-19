@@ -53,6 +53,11 @@
         padding: 30px 20px;
         height: auto;
         max-height: max-content;
+        display: block;
+    }
+
+    .resume-services {
+        margin-bottom: 20px;
     }
 
     .home-container {
