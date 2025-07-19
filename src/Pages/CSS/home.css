@@ -51,6 +51,8 @@
         width: 100%;
         order: 2;
         padding: 30px 20px;
+        height: auto;
+        max-height: max-content;
     }
 
     .home-container {
