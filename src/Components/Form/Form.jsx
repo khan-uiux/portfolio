@@ -43,38 +43,42 @@ function Form() {
 
   return (
     <div className="form-section">
-        <form>
+        <form action="https://formspree.io/f/xdkdaojj" method='POST'>
             <div className="inputs">
                 <input 
-                    type="text" 
+                    type="text"
+                    name='name' 
                     placeholder='Name' 
                     autoComplete="off"
                     value={name}
                     onChange={(e) => setName(e.target.value)} />
 
                 <input 
-                    type="email" 
+                    type="email"
+                    name='email' 
                     placeholder='Email' 
                     autoComplete="off"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)} />
 
                 <input 
-                    type="text" 
+                    type="text"
+                    name='company' 
                     placeholder='Company' 
                     autoComplete="off"
                     value={company}
                     onChange={(e) => setCompany(e.target.value)} />
 
                 <input 
-                    type="text" 
+                    type="text"
+                    name='subject' 
                     placeholder='Subject' 
                     autoComplete="off"
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)} />
             </div>
             <div className="message-box">
-                <textarea placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                <textarea placeholder='Message' name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
             </div>
             <button className='send-message' onClick={FormHandle}>Send Message</button>
         </form>
