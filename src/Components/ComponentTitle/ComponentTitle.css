@@ -1,0 +1,32 @@
+.title {
+    width: 100%;
+}
+
+.title h6 {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: #fff;
+}
+
+hr {
+    width: 60px;
+    position: relative;
+    box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
+    height: 0.5rem;
+    border-radius: 1em;
+    border: 0;
+    margin-top: 10px;
+}
+
+hr::after {
+    position: absolute;
+    content: "";
+    height: 0.25rem;
+    background: #f56c6d;
+    width: 50%;
+    border-radius: 3em;
+    left: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+}

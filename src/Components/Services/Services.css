@@ -1,0 +1,60 @@
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 48%;
+    height: auto;
+    box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+    padding: 20px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.card .icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.card .icon:hover {
+    box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+}
+
+.icon svg {
+    font-size: 24px;
+    color: #f56c6d;
+}
+
+.body-content {
+    margin: 10px 0px 0px 0px;
+}
+
+.body-content h3 {
+    font-weight: 500;
+    letter-spacing: .3px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.body-content p {
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

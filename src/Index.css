@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+.light .home-container {
+    background-color: #f3f5f8;
+}
+
+.light .left-container {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+    background: #edeff3;
+}
+
+.light .hero-content h1 {
+    color: #212529;
+}
+
+.light .outer-div {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .btn-round {
+    color: #77838f;
+    background-color: #f3f5f8;
+}
+
+.light .btn-round:hover {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .line-design {
+    box-shadow: inset 1.5px 1.5px 1.5px #cdcdcd, inset -1.5px -1.5px 1.5px #fafafa;
+}
+
+.light .outer-box {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .inner-box {
+    background: #f3f5f8;
+}
+
+.light .inner-box:hover {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .inner-box svg {
+    color: #212529;
+}
+
+.light .outer {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .inner-icon {
+    background-color: #f3f5f8;
+}
+
+.light .inner-icon:hover {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .right-container {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+    background-color: #edeff3;
+}
+
+.light .profile-image {
+    background-color: #f3f5f8;
+}
+
+.light .profile-image img {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .profile-image::after {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .name-detail h3 {
+    color: #212529;
+}
+
+.light .main-nav li.activeTab {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .main-nav li {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .center-text .text {
+    color: #212529;
+}
+
+.light .title h6 {
+    color: #212529;
+}
+
+.light hr {
+    box-shadow: inset 1.5px 1.5px 1.5px #cdcdcd, inset -1.5px -1.5px 1.5px #fafafa;
+}
+
+.light .about-me h2 {
+    color: #212529;
+}
+
+.light .inner-layer .name {
+    color: #212529;
+    border-right: 1px solid rgb(0 0 0 / 52%);
+}
+
+.light .inner-layer .value {
+    color: #212529;
+}
+
+.light .inner-layer .row {
+    border-bottom: 1px solid rgb(0 0 0 / 52%);
+}
+
+.light .outer-layer {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .inner-layer {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .outer-shadow {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+    background-color: #f3f5f8;
+}
+
+.light .progress-bar h6 {
+    color: #212529;
+}
+
+.light .specialization {
+    box-shadow: 3px 3px 3px #cdcdcd, 3px -3px 3px #fafafa;
+    background-color: #fafafa;
+    color: #6c757d;
+}
+
+.light .outer-d {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .inner-d {
+    background-color: #f3f5f8;
+}
+
+.light .inner-d:hover {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .degree-name {
+    color: #212529;
+}
+
+.light .duration, .light .normal-para {
+    color: #6c757d;
+}
+
+.light .timeline::before {
+    box-shadow: inset 2px 2px 2px #cdcdcd, inset -2px -2px 2px #fafafa;
+    background-color: #f3f5f8;
+}
+
+.light .card {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .card .icon {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .card .icon:hover {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .body-content h3 {
+    color: #212529;
+}
+
+.light .body-content p {
+    color: #212529;
+}
+
+.light .card-main {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .project-title {
+    color: #212529;
+}
+
+.light .my-role {
+    color: #646566;
+}
+
+.light .my-role span {
+    color: #212529;
+}
+
+.light .resp-ul li {
+    color: #646566;
+}
+
+.light .map-outer {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .map-image {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .contact-cards {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .contact-card {
+    background: #f3f5f8;
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+}
+
+.light .contact-cards p {
+    color: #212529;
+}
+
+.light .form-section input, .light .form-section textarea {
+    background: #f3f5f8;
+    border: none;
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
+
+.light .form-section input:focus, .light .form-section textarea:focus {
+    box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
+    outline: none;
+}
+
+.light .send-message {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+}
