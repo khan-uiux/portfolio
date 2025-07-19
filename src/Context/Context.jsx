@@ -8,7 +8,7 @@ export const ContextProvider = (props) => {
 
     // themeContext
     
-    const [theme, setTheme] = useState('dark')
+    const [theme, setTheme] = useState('light')
 
     const toggleTheme = () => {
         setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'))
