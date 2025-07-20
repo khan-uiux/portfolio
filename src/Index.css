@@ -246,3 +246,8 @@
 .light .send-message {
     box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
 }
+
+.light p.about-me {
+    color: #212529;
+    font-weight: 400;
+}

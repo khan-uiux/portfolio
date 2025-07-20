@@ -10,6 +10,13 @@
     color: #fff;
 }
 
+p.about-me {
+    font-size: 15px;
+    color: #ebebeb;
+    font-weight: 300;
+    letter-spacing: .4px;
+}
+
 .about-me .role {
     font-size: 16px;
     color: #9da1a5;
