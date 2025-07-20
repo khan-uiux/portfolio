@@ -1,10 +1,14 @@
-import { createContext, useEffect, useState } from "react";
+import { act, createContext, useEffect, useState } from "react";
 
 export const PortfolioContext = createContext()
 
 export const ContextProvider = (props) => {
 
     const [activeSection, setActiveSection] = useState('home')
+
+    useEffect(() => {
+        window.location.hash = activeSection
+    },[ activeSection ])
 
     // themeContext
     
@@ -15,12 +19,6 @@ export const ContextProvider = (props) => {
     }
 
     // themeContext
-
-      useEffect(() => {
-        if (activeSection) {
-        window.history.pushState(null, "", `/${activeSection}`);
-        }
-    }, [activeSection]);
 
     const allContext = {
         activeSection,
