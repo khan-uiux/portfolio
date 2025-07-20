@@ -65,7 +65,6 @@ function About() {
             <div className="tools">
               <SkillStrip lang="Git" wide="80%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
               <SkillStrip lang="Basic SEO" wide="90%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
-              <SkillStrip lang="Google Meet" wide="90%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
               <SkillStrip lang="Multi Tasking" wide="98%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
             </div>
             <div className="specialization">Other</div>
