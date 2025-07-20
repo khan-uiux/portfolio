@@ -13,8 +13,7 @@ function About() {
       <div className="about-me">
         <h2>Irfan Khan</h2>
         <p className='role'>UI/UX Developer & Front-end Developer</p>
-        <p className="about-me">I'm a UI/UX Designer and Frontend Developer with 3+ years of experience in HTML, CSS, JavaScript, and Bootstrap, and 2+ years in Figma for modern, responsive UI design. I'm also skilled in React.js as a fresher, and can confidently build clean, interactive web interfaces.</p>
-        <p className="about-me">My current CTC is ₹4.8 LPA. I'm seeking a role that allows me to grow as a hybrid designer-developer, and while my expected salary is around ₹6.5 LPA, I'm open to negotiation based on the learning opportunities and working environment.</p>
+        <p className="about-me">I'm a creative UI/UX Designer and Frontend Developer with 3+ years of experience turning ideas into clean, responsive, and user-friendly websites. I specialize in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and design modern UIs using Figma. I work confidently with React.js, and have hands-on experience with Redux Toolkit and Zustand for managing application state. I love crafting seamless digital experiences that look great and perform even better.</p>
         <div className="about-detail">
           <div className="outer-layer">
             <div className="inner-layer">
