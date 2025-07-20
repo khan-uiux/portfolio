@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className={`${theme === 'dark' ? 'light' : 'dark'}`}>
-        <ToastContainer position="top-right" autoClose={3000} />
+        <ToastContainer position="top-right" autoClose={3000} theme = {theme === 'dark' ? 'light' : 'dark'} />
         <Home />
       </div>
     </>
