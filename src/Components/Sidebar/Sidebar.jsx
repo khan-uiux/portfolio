@@ -5,7 +5,7 @@ import { RiContactsLine } from "react-icons/ri";
 import { FaSquareWebAwesomeStroke } from "react-icons/fa6";
 
 
-import UserImage from '../../assets/image.jpg'
+import UserImage from '../../assets/user-image.png'
 
 import './Sidebar.css'
 import LiSnippet from "../Common/LiSnippet";
