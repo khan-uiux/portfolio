@@ -24,7 +24,7 @@ function Portfolio() {
         <ComponentTitle title="Learning Projects" />
       </div>
       <div className="experience-cards">
-        <ExperienceCard projecTitle="PolicyX - Insurance Comparison Website" role="UI/UX Designer & Frontend Developer" skills="Photoshop, Figma, HTML, CSS, Bootstrap, JavaScript, Tailwind" link="https://www.policyx.com/" />
+        <ExperienceCard projecTitle="Personal Portfolio" role="UI/UX Designer & Frontend Developer" skills="Figma, HTML, CSS, JavaScript, React.js" link="https://khan-uiux.github.io/portfolio/" />
 
         <ExperienceCard projecTitle="Fab32 Dental Website" role="Frontend Developer" skills="HTML, CSS, Bootstrap, JavaScript, Tailwind" link="https://fab32dental.com/" />
 
