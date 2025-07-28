@@ -13,7 +13,7 @@ function About() {
       <div className="about-me">
         <h2>Irfan Khan</h2>
         <p className='role'>UI/UX Developer & Front-end Developer</p>
-        <p className="about-me">I'm a creative UI/UX Designer and Frontend Developer with 3+ years of experience turning ideas into clean, responsive, and user-friendly websites. I specialize in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and design modern UIs using Figma. I work confidently with React.js, and have hands-on experience with Redux Toolkit and Zustand for managing application state. I love crafting seamless digital experiences that look great and perform even better.</p>
+        <p className="about-me">I'm a creative UI/UX Designer and Frontend Developer with 3+ years of experience transforming ideas into clean, responsive, and user-friendly websites. I specialize in HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind CSS, and design modern interfaces using Figma. I also have hands-on experience with state management tools like Redux Toolkit and Zustand. I'm passionate about crafting seamless digital experiences that not only look great but also perform exceptionally well.</p>
         <div className="about-detail">
           <div className="outer-layer">
             <div className="inner-layer">
