@@ -25,7 +25,7 @@ function About() {
           <div className="outer-layer">
             <div className="inner-layer">
               <TableRow name="Email" value="irfanoptimistic@gmail.com" />
-              <TableRow name="Location" value="Gurgaon" />
+              <TableRow name="Avail." value="Immediate Joiner" />
             </div>
           </div>
         </div>
