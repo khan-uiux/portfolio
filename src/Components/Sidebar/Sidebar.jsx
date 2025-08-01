@@ -26,6 +26,7 @@ function Sidebar({onSelect}) {
           <LiSnippet name="Home" icon={<IoHomeOutline />} tabLink="home" onSelect={onSelect} />
           <LiSnippet name="About" icon={<FiUser />} tabLink="about" onSelect={onSelect} />
           <LiSnippet name="Services" icon={<FaSquareWebAwesomeStroke />} tabLink="services" onSelect={onSelect} />
+          <LiSnippet name="SharesPoint Exp" icon={<FaSquareWebAwesomeStroke />} tabLink="sharespoint" onSelect={onSelect} />
           <LiSnippet name="Work & Experience" icon={<IoCodeWorkingSharp />} tabLink="portfolio" onSelect={onSelect} />
           <LiSnippet name="Contact" icon={<RiContactsLine />} tabLink="contact" onSelect={onSelect} />
         </ul>

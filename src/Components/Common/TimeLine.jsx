@@ -13,8 +13,8 @@ function TimeLine({degree, school, para, responsibilities}) {
   return (
     <div className="timeline-content">
         <div className="mb-1">
-            <h6 className="degree-name">{degree}</h6>
-            <div className="duration"><span style={{display:"flex", margin:"5px 0px"}}> {<MdOutlineDateRange />} </span>{school}</div>
+            <h6 className="degree-name">{degree ? degree : <></>}</h6>
+            { school && <div className="duration"><span style={{display:"flex", margin:"5px 0px"}}> {<MdOutlineDateRange />} </span>{school}</div> }
         </div>
         <p className="normal-para" style={paraStyle}>{para}</p>
         <ul style={isResponsibility} className="resp-ul">

@@ -10,6 +10,7 @@ import './CSS/home.css'
 import { PortfolioContext } from '../Context/Context'
 // animation 
 import { AnimatePresence, motion } from 'framer-motion';
+import SharesPoint from '../Components/SharesPoint/SharesPoint'
 
 function Home() {
 
@@ -25,6 +26,8 @@ function Home() {
         return <About />;
       case 'services':
         return <Services />;
+      case 'sharespoint' :
+        return <SharesPoint />
       case 'portfolio':
         return <Portfolio />;
       case 'contact':

@@ -51,7 +51,7 @@ function Portfolio() {
             <TimeLine 
             degree="Graphic & Web Designer" 
             school="Haut IT Solutions - April 2022 - Sep. 2022"
-            responsibilities={["Created responsive layouts using HTML5, CSS3, and jQuery.", "Converted wireframes into working web pages.", "Ensured cross-browser and mobile compatibility.", "Maintained clean code using Git and component-based architecture."]}  />
+            responsibilities={["Created responsive layouts using HTML5, CSS3, and jQuery.", "Converted wireframes into working web pages.", "Ensured cross-browser and mobile compatibility.", "Maintained clean code using Git and component-based architecture.", "Created business presentations and internal handbooks using Microsoft PowerPoint for sales and client communication."]} />
 
         </div>
     </section>

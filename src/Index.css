@@ -251,3 +251,13 @@
     color: #212529;
     font-weight: 400;
 }
+
+.sharespoint-container p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15.5px;
+}
+
+.light .sharespoint-container p {
+    color: #212529;
+}

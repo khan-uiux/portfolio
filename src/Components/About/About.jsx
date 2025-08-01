@@ -41,6 +41,7 @@ function About() {
               <SkillStrip lang="Figma" wide="90%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
               <SkillStrip lang="Adobe XD" wide="86%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
               <SkillStrip lang="Photoshop" wide="80%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
+              <SkillStrip lang="Microsoft SharePoint" wide="55%" bgColor="rgba(255, 255, 255, .8)" isDark="#6c757d" />
             </div>
             <div className="specialization">
               Design
@@ -55,7 +56,6 @@ function About() {
               <SkillStrip lang="React.js" wide="80%" bgColor="#f56c6d" />
               <SkillStrip lang="Tailwind CSS" wide="79%" bgColor="#f56c6d" />
               <SkillStrip lang="jQuery" wide="70%" bgColor="#f56c6d" />
-              <SkillStrip lang="Redux Toolkit" wide="80%" bgColor="#f56c6d" />
               <SkillStrip lang="Zustand" wide="80%" bgColor="#f56c6d" />
             </div>
             <div className="specialization">Coding</div>
