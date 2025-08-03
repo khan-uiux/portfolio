@@ -26,11 +26,7 @@ function Portfolio() {
       <div className="experience-cards">
         <ExperienceCard projecTitle="Personal Portfolio" role="UI/UX Designer & Frontend Developer" skills="Figma, HTML, CSS, JavaScript, React.js" link="https://khan-uiux.github.io/portfolio/" />
 
-        <ExperienceCard projecTitle="Fab32 Dental Website" role="Frontend Developer" skills="HTML, CSS, Bootstrap, JavaScript, Tailwind" link="https://fab32dental.com/" />
-
-        <ExperienceCard projecTitle="Sharescart - Stock Sharing Platform" role="UI/UX Designer & Frontend Developer" skills="Photoshop, HTML, CSS, Bootstrap, JavaScript, Tailwind" link="https://www.sharescart.com/" />
-
-        <ExperienceCard projecTitle="Adosha Wellness" role="Graphic & Web Designer" skills="Photoshop, HTML, CSS, Bootstrap, JavaScript" link="https://adoshawellness.com/" />
+        <ExperienceCard projecTitle="Movie Streaming App" role="Front-end Developer" skills="HTML, CSS, JavaScript, Raect.js" link="https://khan-uiux.github.io/movies/#/" />
       </div>
 
       <div className="title-heading">

@@ -1,17 +1,14 @@
 .experience-cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 .card-main {
-    width: 48%;
-    height: auto;
     box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
     border-radius: 32px;
     margin: auto;
-    min-height: 234px;
+    min-height: 222px;
 }
 
 .card-main img {
@@ -31,7 +28,7 @@
 }
 
 .my-role {
-    font-size: 15px;
+    font-size: 14px;
     color: #9da1a5;
     margin: 0px 0px 10px 0px;
     letter-spacing: .2px;
@@ -144,8 +141,9 @@ hr.divider:after, .timeline-content:after, .owl-theme .owl-controls .owl-page.ac
 
 @media screen and (max-width: 768px) {
     .card-main {
-        width: 100%;
-        height: auto;
         min-height: auto;
+    }
+    .experience-cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
