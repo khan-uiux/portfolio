@@ -21,15 +21,6 @@ function Portfolio() {
       </div>
 
       <div className="title-heading">
-        <ComponentTitle title="Learning Projects" />
-      </div>
-      <div className="experience-cards">
-        <ExperienceCard projecTitle="Personal Portfolio" role="UI/UX Designer & Frontend Developer" skills="Figma, HTML, CSS, JavaScript, React.js" link="https://khan-uiux.github.io/portfolio/" />
-
-        <ExperienceCard projecTitle="Movie Streaming App" role="Front-end Developer" skills="HTML, CSS, JavaScript, Raect.js" link="https://khan-uiux.github.io/movies/" />
-      </div>
-
-      <div className="title-heading">
         <ComponentTitle title="Work Experience" />
       </div>
 
